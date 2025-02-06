@@ -1,18 +1,15 @@
-
+body{
+    font-family: "Manrope", serif;
+}
   svg {
-        stroke: #000;
+        stroke: #000000;
         stroke-linecap: round;
         stroke-linejoin: round;
-        stroke-width: 10px;
+        stroke-width: 1px;
       }
 
-      .cls-2 {
-        fill: none;
-      }
-     svg{
-          fill: none;
-          stroke: #000;
-          stroke-linecap: round;
-          stroke-linejoin: round;
-          stroke-width: 10px;
-        }
+    svg:hover{
+        fill: #ff0000;
+
+    }
+
