@@ -1,5 +1,6 @@
 body{
     font-family: "Manrope", serif;
+    background-color: #ffffff; 
 }
   svg {
         stroke: #000000;
@@ -10,6 +11,9 @@ body{
 
     svg:hover{
         fill: #ff0000;
+
+          
+          
 
     }
 
