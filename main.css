@@ -4,19 +4,10 @@ body{
     background-color: #ffffff; 
 }
   svg {
-        stroke: #000000;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-width: 1px;
       }
-
-    svg:hover{
-        fill: #ff0000;
-
-          
-          
-
-    }
 
       .container {
         height: 100%;
