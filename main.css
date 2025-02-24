@@ -56,3 +56,34 @@ body{
     .ig-icon:hover, .mail-icon:hover{
       animation: pulse 1s infinite;
     }
+
+    /* mobile grid begins here */
+    @media screen and (max-width: 750px) {
+    .container {
+      height: 100vh;
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+          "i i i i i i i i"
+          "i i i i i i i i"
+          "t t t t t t t t"
+          "c c c c c c c c";
+  }
+
+  .image-container {
+    grid-area: i;
+}
+
+.text-container { 
+  text-align: center;
+  grid-area: t;
+}
+
+.icon-container {
+    grid-area: c;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
